@@ -113,6 +113,7 @@ for (let i = 1; i <= 100; i++) {
 
 
 app.get("/", (req, res) => {
+    console.log(req.path);
   return res.send("ini api");
 });
 app.get("/tes", (req, res) => {
