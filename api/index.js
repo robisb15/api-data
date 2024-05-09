@@ -218,4 +218,3 @@ app.get("/products/:id", (req, res) => {
 // Start server
 
 
-module.exports = app;
