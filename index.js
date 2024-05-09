@@ -115,6 +115,9 @@ for (let i = 1; i <= 100; i++) {
 app.get("/", (req, res) => {
   return res.send("ini api");
 });
+app.get("/tes", (req, res) => {
+  return res.send("ini tes");
+});
 
 app.get("/data-peraturan", (req, res) => {
   res.json(regulations);
